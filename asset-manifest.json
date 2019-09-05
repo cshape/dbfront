@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dbfront/static/css/main.995f9c06.chunk.css",
+    "main.js": "/dbfront/static/js/main.788e480b.chunk.js",
+    "main.js.map": "/dbfront/static/js/main.788e480b.chunk.js.map",
+    "runtime~main.js": "/dbfront/static/js/runtime~main.707a6ba0.js",
+    "runtime~main.js.map": "/dbfront/static/js/runtime~main.707a6ba0.js.map",
+    "static/js/2.382ccb15.chunk.js": "/dbfront/static/js/2.382ccb15.chunk.js",
+    "static/js/2.382ccb15.chunk.js.map": "/dbfront/static/js/2.382ccb15.chunk.js.map",
+    "index.html": "/dbfront/index.html",
+    "precache-manifest.30ae669db9794038ff9c98fc3e74a702.js": "/dbfront/precache-manifest.30ae669db9794038ff9c98fc3e74a702.js",
+    "service-worker.js": "/dbfront/service-worker.js",
+    "static/css/main.995f9c06.chunk.css.map": "/dbfront/static/css/main.995f9c06.chunk.css.map",
+    "static/media/logo.svg": "/dbfront/static/media/logo.5d5d9eef.svg"
+  }
+}
