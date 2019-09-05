@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -21,6 +24,21 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.verticalForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.verticalForm label {
+  padding: .2rem;
+}
+
+.input-thing {
+  width: 200px;
 }
 
 @keyframes App-logo-spin {
