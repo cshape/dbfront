@@ -15,6 +15,18 @@ class Form extends React.Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
+  componentDidMount() {
+    axios.get("https://webhooks-test-696969.herokuapp.com/newdata")
+      .then (data => {
+        console.log(data);
+        this.setState({
+          name: data.data.name,
+          data1: data.data.data1,
+          data2: data.data.data2
+        })
+      })
+  }
+
   handleChange(event) {
     let cName = event.target.className;
     this.setState({[cName]: event.target.value});
@@ -42,15 +54,15 @@ class Form extends React.Component {
       <form className="verticalForm" onSubmit={this.handleSubmit}>
         <label>
           Name:
-          <input className="name" type="text" value={this.state.value} onChange={this.handleChange} />
+          <input className="name" type="text" value={this.state.name} onChange={this.handleChange} />
         </label>
         <label>
           DataThing1:
-          <input className="data1" type="text" value={this.state.value} onChange={this.handleChange} />
+          <input className="data1" type="text" value={this.state.data1} onChange={this.handleChange} />
         </label>
         <label>
           DataThing2:
-          <input className="data2" type="text" value={this.state.value} onChange={this.handleChange} />
+          <input className="data2" type="text" value={this.state.data2} onChange={this.handleChange} />
         </label>
         <input className="input-thing" type="submit" value="Save" />
       </form>
