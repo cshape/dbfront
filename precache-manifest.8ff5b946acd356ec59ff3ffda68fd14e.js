@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "77c959145bedd03ddb17680478db0b38",
+    "revision": "af8643edecc4b4e4ea4bd82eb57dc387",
     "url": "/dbfront/index.html"
   },
   {
