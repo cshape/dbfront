@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "af8643edecc4b4e4ea4bd82eb57dc387",
+    "revision": "5f122bd7aa47c4687b244f09fd16f6eb",
     "url": "/dbfront/index.html"
   },
   {
-    "revision": "637c0082d47f35472c30",
+    "revision": "62c2d853dd79b4e8cb49",
     "url": "/dbfront/static/css/main.995f9c06.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dbfront/static/js/2.c470d502.chunk.js"
   },
   {
-    "revision": "637c0082d47f35472c30",
-    "url": "/dbfront/static/js/main.22495d71.chunk.js"
+    "revision": "62c2d853dd79b4e8cb49",
+    "url": "/dbfront/static/js/main.c72f2242.chunk.js"
   },
   {
     "revision": "a2c1978de3b20e73e145",
