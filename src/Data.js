@@ -47,7 +47,7 @@ class Form extends React.Component {
       console.log(error);
     })
     event.preventDefault();
-    alert("congratulations! your shit was saved.")
+    alert("Data saved.")
   }
 
   render() {
