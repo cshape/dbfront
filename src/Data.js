@@ -8,7 +8,8 @@ class Form extends React.Component {
     this.state = {
       name: '',
       data1: '',
-      data2: ''
+      data2: '',
+      data3: ''
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -22,7 +23,8 @@ class Form extends React.Component {
         this.setState({
           name: data.data.name,
           data1: data.data.data1,
-          data2: data.data.data2
+          data2: data.data.data2,
+          data3: data.data.data3
         })
       })
   }
@@ -38,6 +40,7 @@ class Form extends React.Component {
       name: this.state.name,
       data1: this.state.data1,
       data2: this.state.data2,
+      data3: this.state.data3,
       date: Date.now()
     })
     .then(function (response) {
@@ -64,6 +67,10 @@ class Form extends React.Component {
         <label>
           Favorite Food:
           <input className="data2" type="text" value={this.state.data2} onChange={this.handleChange} />
+        </label>
+        <label>
+          Free Tickets Left:
+          <input className="data3" type="text" value={this.state.data3} onChange={this.handleChange} />
         </label>
         <input className="input-thing" type="submit" value="Save" />
       </form>
