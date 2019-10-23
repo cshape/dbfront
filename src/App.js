@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>All the Data you need and none that you don't</h1>
+      <h1>Macomb Community College Database</h1>
       <Form />
     </div>
   );

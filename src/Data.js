@@ -61,15 +61,15 @@ class Form extends React.Component {
           <input className="name" type="text" value={this.state.name} onChange={this.handleChange} />
         </label>
         <label>
-          Favorite Sport:
+         Email:
           <input className="data1" type="text" value={this.state.data1} onChange={this.handleChange} />
         </label>
         <label>
-          Favorite Food:
+          Phone Number:
           <input className="data2" type="text" value={this.state.data2} onChange={this.handleChange} />
         </label>
         <label>
-          Free Tickets Left:
+          Years at Macomb:
           <input className="data3" type="text" value={this.state.data3} onChange={this.handleChange} />
         </label>
         <input className="input-thing" type="submit" value="Save" />
