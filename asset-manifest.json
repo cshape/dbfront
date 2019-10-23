@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/dbfront/static/css/main.995f9c06.chunk.css",
-    "main.js": "/dbfront/static/js/main.fc8fbb93.chunk.js",
-    "main.js.map": "/dbfront/static/js/main.fc8fbb93.chunk.js.map",
+    "main.js": "/dbfront/static/js/main.b203ebbd.chunk.js",
+    "main.js.map": "/dbfront/static/js/main.b203ebbd.chunk.js.map",
     "runtime~main.js": "/dbfront/static/js/runtime~main.707a6ba0.js",
     "runtime~main.js.map": "/dbfront/static/js/runtime~main.707a6ba0.js.map",
     "static/js/2.c470d502.chunk.js": "/dbfront/static/js/2.c470d502.chunk.js",
     "static/js/2.c470d502.chunk.js.map": "/dbfront/static/js/2.c470d502.chunk.js.map",
     "index.html": "/dbfront/index.html",
-    "precache-manifest.9505390fd2bd145a7681f89ea4d07383.js": "/dbfront/precache-manifest.9505390fd2bd145a7681f89ea4d07383.js",
+    "precache-manifest.e4e4d0bc1256957b840c16c13c22a730.js": "/dbfront/precache-manifest.e4e4d0bc1256957b840c16c13c22a730.js",
     "service-worker.js": "/dbfront/service-worker.js",
     "static/css/main.995f9c06.chunk.css.map": "/dbfront/static/css/main.995f9c06.chunk.css.map",
     "static/media/logo.svg": "/dbfront/static/media/logo.5d5d9eef.svg"
